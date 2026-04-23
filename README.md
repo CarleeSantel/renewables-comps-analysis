@@ -1,6 +1,6 @@
 # Renewables Comparables Analysis
 
-A Python-based comparable company analysis of 10 publicly traded renewable energy firms, built to demonstrate financial modeling and data automation skills. The script pulls live market and financial data via the yfinance API, calculates key valuation metrics, and exports a formatted, print-ready Excel workbook with segment groupings, alternating row shading, frozen panes, and color-coded N/A flags for meaningless multiples.
+A Python-based comparable company analysis of 10 publicly traded renewable energy firms. The energy transition is inevitable, and AI datacenter power demand are accelerating capital flows into the sector. The script pulls live market and financial data via the yfinance API, calculates key valuation metrics, and exports a formatted, print-ready Excel workbook with segment groupings, alternating row shading, frozen panes, and color-coded N/A flags for meaningless multiples.
 
 ---
 
