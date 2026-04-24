@@ -60,7 +60,7 @@ All financial and market data is sourced from **Yahoo Finance via the yfinance l
 ## How to Run
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 comps.py
 ```
 
