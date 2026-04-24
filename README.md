@@ -1,6 +1,6 @@
 # Renewables Comparables Analysis
 
-A Python-based comparable company analysis of 10 publicly traded renewable energy firms. The energy transition is inevitable, and AI datacenter power demand are accelerating capital flows into the sector. The script pulls live market and financial data with yfinance, calculates valuation metrics, and exports a formatted, print-ready Excel workbook. For gaps in yfinance data, color-coded N/A flags appear for meaningless multiples.
+A Python-based comparable company analysis of 10 publicly traded renewable energy firms. The energy transition is inevitable, and AI datacenter power demand is accelerating capital flows into the sector. The script pulls live market and financial data with yfinance, calculates valuation metrics, and exports a formatted, print-ready Excel workbook. For gaps in yfinance data, color-coded N/A flags appear for meaningless multiples.
 
 ---
 
