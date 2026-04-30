@@ -23,11 +23,11 @@ I used python to create a comparable company analysis of 10 publicly traded rene
 EV = Market Cap + Total Debt − Cash & Cash Equivalents
 ```
 
-Three valuation multiples are computed for each company:
+Three valuation measures are computed for each company:
 
-- **EV/Revenue** — included because several companies in the set are pre-profitability or have compressed margins; revenue is the most consistent denominator across the universe.
+- **EV/Revenue** — because several companies in the set are pre-profitability and revenue is the most consistent denominator.
 - **EV/EBITDA** — the primary operating multiple for capital-intensive businesses like utilities and diversified renewables, where depreciation is significant and distorts net income comparisons.
-- **P/E** — included as a secondary check for companies with positive, stable earnings (primarily the utilities and large diversified players).
+- **P/E** — as a check for companies with positiveand  stable earnings (mostly the utilities and large diversified players
 
 PLUG and BE display **N/A** on EV/EBITDA and P/E because both companies carry negative EBITDA and negative net income; dividing by a negative denominator would produce a mathematically valid but analytically meaningless result.
 
@@ -44,16 +44,16 @@ PLUG and BE display **N/A** on EV/EBITDA and P/E because both companies carry ne
 
 ## Data Source
 
-All financial and market data is sourced from **Yahoo Finance via the yfinance library**. Select figures (market cap, enterprise value, EV multiples for NEE and FSLR) were cross-verified against publicly available filings and financial data providers to confirm directional accuracy.
+data is sourced from yfinance. Select figures (market cap, enterprise value, EV multiples for NEE and FSLR) were cross-verified against publicly available filings and financial data providers to confirm directional accuracy.
 
 ---
 
 ## Tech Stack
 
 - Python 3
-- [yfinance](https://github.com/ranaroussi/yfinance) — market & financial data
+- [yfinance](https://github.com/ranaroussi/yfinance) — market data
 - [pandas](https://pandas.pydata.org/) — data handling
-- [openpyxl](https://openpyxl.readthedocs.io/) — Excel workbook generation
+- [openpyxl](https://openpyxl.readthedocs.io/) — Excel workbook 
 
 ---
 
@@ -64,4 +64,4 @@ pip3 install -r requirements.txt
 python3 comps.py
 ```
 
-The script will fetch live data for all 10 tickers, print a console summary with any flagged values (missing or negative line items), and save `renewables_comps.xlsx` to the working directory.
+script will get live data for all 10 tickers, print a summary with any flagged values, and save `renewables_comps.xlsx` to the working directory
