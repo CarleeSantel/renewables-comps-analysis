@@ -1,6 +1,6 @@
 # Renewables Comparables Analysis
 
-A Python-based comparable company analysis of 10 publicly traded renewable energy firms. The energy transition is inevitable, and AI datacenter power demand is accelerating capital flows into the sector. The script pulls live market and financial data with yfinance, calculates valuation metrics, and exports a formatted, print-ready Excel workbook. For gaps in yfinance data, color-coded N/A flags appear for meaningless multiples.
+I used python to create a comparable company analysis of 10 publicly traded renewable energy firms. The energy transition is inevitable, and AI datacenter power demand is accelerating capital flows into the sector. The script I constructed pulls data with yfinance, calculates valuations, and exports a formatted Excel workbook. For gaps in yfinance data, color-coded N/A flags appear for meaningless multiples.
 
 ---
 
@@ -35,7 +35,7 @@ PLUG and BE display **N/A** on EV/EBITDA and P/E because both companies carry ne
 
 ## Key Observations
 
-- **FSLR trades at a discount to solar peers** on EV/Revenue, likely reflecting the capital intensity of its domestic manufacturing model relative to asset-light installers like ENPH and RUN.
+- **FSLR trades lower than solar competitors** on EV/Revenue, reflecting the intensity of its domestic manufacturing model relative to asset-light installers like ENPH and RUN.
 - **BE commands a notable premium** on a revenue basis, consistent with a market thesis around its solid oxide fuel cells as a high-reliability power source for data center and critical infrastructure buildouts.
 - **NEE commands a premium to utility peers** (e.g., ED) across EV/EBITDA and P/E, reflecting its scale, regulated Florida utility base, and one of the largest renewables development pipelines in North America.
 - **PLUG's negative EBITDA and net income** underscore that the green hydrogen segment remains in heavy investment mode — the stock is priced on optionality and long-term addressable market rather than current earnings.
